@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+    <input type="text" id="colorInput" placeholder="Enter color (red, blue, green, black, white)">
+    <button onclick="changeBackgroundColor()">Change Color</button>
+
+    <button onclick="openModal()">Open mo dal</button>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <img src="./images/rock.jpg" >
+                <button onclick="closeModal()">Close</button>
+            </div>
+        </div>
+    <input type="text" id="numberInput" placeholder="1:2:3:4:5">
+    <button onclick="calculateAverage()">Calculate average number</button>
+
+    <p id="averageResult"></p>
+
+    <script src="./scripts/main.js"></script>
+
+    </body>
+</html>
